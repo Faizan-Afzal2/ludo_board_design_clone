@@ -12,9 +12,10 @@ class MyLudo extends StatelessWidget {
           alignment: Alignment.center,
           children: [
             Container(
-              color: Colors.grey,
               height: 600,
               width: 600,
+              decoration: BoxDecoration(
+                  color: Colors.grey, borderRadius: BorderRadius.circular(20)),
             ),
             Positioned(
               top: 0,
